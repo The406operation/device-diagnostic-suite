@@ -1,0 +1,18 @@
+name: Feature request
+description: Suggest a reusable diagnostic feature without private evidence.
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: Do not upload raw sysdiagnose, logs, crash reports, identifiers, credentials, private exports, or private screenshots. Describe the need with generic roles or synthetic examples.
+  - type: textarea
+    id: need
+    attributes:
+      label: Diagnostic question and proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Legitimate source and access limits
+      description: Identify a public interface or supported user workflow. Do not request a jailbreak, protected entitlement, or security bypass.

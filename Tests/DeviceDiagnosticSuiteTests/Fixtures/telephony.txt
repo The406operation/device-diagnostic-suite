@@ -1,0 +1,9 @@
+# SYNTHETIC: hand-authored parser states; no real capture values.
+2031-02-03 12:00:00.000 CommCenter Registration status: kRegisteredHome
+2031-02-03 12:00:05.000 CommCenter Registration status: kEmergencyOnly
+2031-02-03 12:00:08.000 CommCenter imsRegistrationState: Registered: kNotRegistered
+2031-02-03 12:00:09.000 CoreTelephony NEPathEvent cellular failed
+2031-02-03 12:00:12.000 CommCenter next airplane mode toggle or baseband reset
+2031-02-03 12:01:00.000 CommCenter Registration status: kRegisteredHome
+2031-02-03 12:01:04.000 basebandd baseband reset detected
+2031-02-03 12:02:00.000 CommCenter registration reject

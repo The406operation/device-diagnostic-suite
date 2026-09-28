@@ -1,0 +1,31 @@
+name: Offline verification
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: macos-26
+    timeout-minutes: 20
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_26.6.app/Contents/Developer
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Tool versions
+        run: |
+          swift --version
+          xcodebuild -version
+          python3 --version
+      - name: Publication privacy gate
+        run: python3 scripts/publication_scan.py .
+      - name: Swift parser, comparison, and export tests
+        run: swift test --scratch-path "$RUNNER_TEMP/suite-swift-tests"
+      - name: Python parser, baseline, and watcher tests
+        run: python3 -m unittest discover -s PythonTests -v
+      - name: Local release build
+        run: ./build-app.sh "$RUNNER_TEMP/suite-app-output"

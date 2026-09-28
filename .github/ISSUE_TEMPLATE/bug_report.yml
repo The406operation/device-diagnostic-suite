@@ -1,0 +1,40 @@
+name: Bug report
+description: Report a reproducible application problem with sanitized or synthetic evidence.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not upload raw sysdiagnose files, Console logs, crash reports, Private Diagnostic Exports, databases, credentials, device names/identifiers, account data, Wi-Fi identifiers, precise locations, or private screenshots.
+        Use a synthetic reproduction or an inspected Share-Safe Export. Share-Safe timestamps can identify an incident.
+  - type: input
+    id: version
+    attributes:
+      label: Application version and generic tool versions
+      description: Include macOS/iOS/Xcode versions if relevant. No identifiers or host paths.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps and observed behavior
+      description: Separate facts from inference. Replace private labels with Primary and Control.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Synthetic reproduction or sanitized summary
+      description: Do not paste raw diagnostic text. Do not attach private artifacts.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I inspected this report and every attachment for private data. I included no raw diagnostic archives, credentials, or identifiers.
+          required: true

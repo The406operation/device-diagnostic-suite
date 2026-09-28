@@ -1,0 +1,274 @@
+{
+  "files": [
+    {
+      "bytes": 1570,
+      "mode": "0o644",
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha256": "4bdf033353597e8c0634908ae46a2c81ff95749ba66c4d209bb6afd7d864ecd2"
+    },
+    {
+      "bytes": 28,
+      "mode": "0o644",
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "1f103c6a9dd07cd13a9a6f17ace6b813f47747eb9cb7e00488cb2073caaf91bb"
+    },
+    {
+      "bytes": 738,
+      "mode": "0o644",
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "sha256": "e5b8b54a03e2797c16d376f2cd82a7a5c7d08852be263776d2cdfdb71497ed39"
+    },
+    {
+      "bytes": 981,
+      "mode": "0o644",
+      "path": ".github/workflows/verify.yml",
+      "sha256": "07a07451751d82e5b16b73a9f122d7ac2e79b0676248af3a1e6ad715c452a943"
+    },
+    {
+      "bytes": 421,
+      "mode": "0o644",
+      "path": ".gitignore",
+      "sha256": "c28ec7acd7bd751f2403b88c52ac5a65097514523e2cb7417c5c5b15b9a8809f"
+    },
+    {
+      "bytes": 1392,
+      "mode": "0o644",
+      "path": "CONTRIBUTING.md",
+      "sha256": "410b9f825b757b323a95ffb909e93a7e4bd19d8d56d278272d6abb39aaf80a1c"
+    },
+    {
+      "bytes": 1093,
+      "mode": "0o644",
+      "path": "LICENSE",
+      "sha256": "d78c391fa5fa3fd40e42580aade14a64852d1d867c2630f1a805a6cae694bf01"
+    },
+    {
+      "bytes": 474,
+      "mode": "0o644",
+      "path": "Package.swift",
+      "sha256": "af2354587a6f8ec2d134954e32bd170ab52cba1a2e12d0d792fb7df5f2cf4b5a"
+    },
+    {
+      "bytes": 6825,
+      "mode": "0o644",
+      "path": "PythonTests/test_resources.py",
+      "sha256": "57f7b2acd19289abf85394188bd1cbf9657ac26976895ed6ed509651a274a9df"
+    },
+    {
+      "bytes": 4439,
+      "mode": "0o644",
+      "path": "README.md",
+      "sha256": "839a55d7c2aea76936021aea0018e5332e57a51435f2b26cf5777397b745651a"
+    },
+    {
+      "bytes": 2789,
+      "mode": "0o644",
+      "path": "SECURITY.md",
+      "sha256": "c3b2ce76a2b08db64e9da7fce3d2971a347929de96f38f29800e587d3ab37209"
+    },
+    {
+      "bytes": 3504,
+      "mode": "0o644",
+      "path": "Sources/DeviceDiagnosticSuite/Analysis.swift",
+      "sha256": "3d183b1adc6130a19eedafa04254bfc9d850fdf75a96bfe30ae43142dc49134b"
+    },
+    {
+      "bytes": 20202,
+      "mode": "0o644",
+      "path": "Sources/DeviceDiagnosticSuite/App.swift",
+      "sha256": "ee0726750d069a14022efe97be0d63d33375b6dfdcf3d417b23f65327da09bf2"
+    },
+    {
+      "bytes": 7881,
+      "mode": "0o644",
+      "path": "Sources/DeviceDiagnosticSuite/CampaignAnalysis.swift",
+      "sha256": "ff35362885abe72fe7fd2425d34b755b303ea76afe71e30a368545e98a441542"
+    },
+    {
+      "bytes": 4000,
+      "mode": "0o644",
+      "path": "Sources/DeviceDiagnosticSuite/CampaignModels.swift",
+      "sha256": "b0853f93665cc16579da2dcf5547cc2a87fea2e02d56488ad75ad8b47b0c7ba0"
+    },
+    {
+      "bytes": 23840,
+      "mode": "0o644",
+      "path": "Sources/DeviceDiagnosticSuite/CampaignStore.swift",
+      "sha256": "fcc0ea3ff1fd1282cb6e79847077ff7509d4dc91277d743257330cf530e150aa"
+    },
+    {
+      "bytes": 16250,
+      "mode": "0o644",
+      "path": "Sources/DeviceDiagnosticSuite/CampaignView.swift",
+      "sha256": "6ea64bde8ac8572c21898d2c612357fce326261feaf00ed3a4ad80f90a8b0f08"
+    },
+    {
+      "bytes": 1766,
+      "mode": "0o644",
+      "path": "Sources/DeviceDiagnosticSuite/Command.swift",
+      "sha256": "ec3fda74b6b4cfe2746a1979d86aa5c4014b634d0eac0cbec9a325867c7c28af"
+    },
+    {
+      "bytes": 15442,
+      "mode": "0o644",
+      "path": "Sources/DeviceDiagnosticSuite/DiagnosticStore.swift",
+      "sha256": "9e0a141650f3fe97771d70bcff6372ba963be88c7d4819df8ea90e515f07c12a"
+    },
+    {
+      "bytes": 12713,
+      "mode": "0o644",
+      "path": "Sources/DeviceDiagnosticSuite/ExportPolicy.swift",
+      "sha256": "75ad530cf590500f89f369f2864a9170cfb2f258f4d71fe1d3914fdce74834b8"
+    },
+    {
+      "bytes": 2702,
+      "mode": "0o644",
+      "path": "Sources/DeviceDiagnosticSuite/Models.swift",
+      "sha256": "35dd3a673c367243bb99afc837e8f5390d2834818fc517b11217b08ca56c2673"
+    },
+    {
+      "bytes": 6400,
+      "mode": "0o644",
+      "path": "Sources/DeviceDiagnosticSuite/Resources/parse_logarchive.py",
+      "sha256": "ce64b121e5277618dab98ab5c903d3c8b8458443ad567d8f71ea11ab60b34717"
+    },
+    {
+      "bytes": 10391,
+      "mode": "0o644",
+      "path": "Sources/DeviceDiagnosticSuite/Resources/run_baseline.py",
+      "sha256": "a7d65b954adb00381b73c28b64dad4cb87c9e9eec3dab9893ddb4a80373e3642"
+    },
+    {
+      "bytes": 12039,
+      "mode": "0o644",
+      "path": "Sources/DeviceDiagnosticSuite/Resources/watch_sos.py",
+      "sha256": "46f8e13b18da2cb5fbc225cf02f5ee56a1b8a7ade76a2c28eba52529e82469ee"
+    },
+    {
+      "bytes": 1074,
+      "mode": "0o644",
+      "path": "Tests/DeviceDiagnosticSuiteTests/AnalysisTests.swift",
+      "sha256": "0670e20c72b3dc08727cf0b0f14934dc87895ddf7597c4ef1723ab1526705d9e"
+    },
+    {
+      "bytes": 4676,
+      "mode": "0o644",
+      "path": "Tests/DeviceDiagnosticSuiteTests/CampaignAnalysisTests.swift",
+      "sha256": "de135c0144fc42f12aa767de65085959cc2123b970fd38d7c42137f86929420d"
+    },
+    {
+      "bytes": 9014,
+      "mode": "0o644",
+      "path": "Tests/DeviceDiagnosticSuiteTests/ExportPolicyTests.swift",
+      "sha256": "25bc24dcb14f2ecc82a5b9a62ea62f929c75436c57f7c2047b2b3b4756eebfc2"
+    },
+    {
+      "bytes": 422,
+      "mode": "0o644",
+      "path": "Tests/DeviceDiagnosticSuiteTests/Fixtures/README.md",
+      "sha256": "3af972c11e4e7ea3822eb99d5cc929e1e21cb28677c6744def761af73f1d162c"
+    },
+    {
+      "bytes": 438,
+      "mode": "0o644",
+      "path": "Tests/DeviceDiagnosticSuiteTests/Fixtures/comparison.json",
+      "sha256": "912e1f427f95795763d7a74fd8fbe82f6ea75d80ae2aeb3c6bdfca9cad9563f5"
+    },
+    {
+      "bytes": 623,
+      "mode": "0o644",
+      "path": "Tests/DeviceDiagnosticSuiteTests/Fixtures/telephony.txt",
+      "sha256": "152fa779f6283b3c87122933545f577a79480cc38704510e746287ecd0508d36"
+    },
+    {
+      "bytes": 1994,
+      "mode": "0o644",
+      "path": "Tests/DeviceDiagnosticSuiteTests/SyntheticFixtureTests.swift",
+      "sha256": "cef5d93ea22cd2ad5de0e7d592fc604be8cf5dc2fc875aad15433b76ad119fb6"
+    },
+    {
+      "bytes": 11,
+      "mode": "0o644",
+      "path": "VERSION",
+      "sha256": "ff24abc8cd1f5bf082d22bc1ad8dc5624c78080861d8faa3ada6690f42f1c40d"
+    },
+    {
+      "bytes": 1875,
+      "mode": "0o755",
+      "path": "build-app.sh",
+      "sha256": "884b6f585f4f7b2607532bf7acdc2201315156c97b25222c5af5320ce70afaff"
+    },
+    {
+      "bytes": 3177,
+      "mode": "0o644",
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "c860273eec0608a25cc5a8c1267448d8ef5cd5e01c08a1b0958515500d34b504"
+    },
+    {
+      "bytes": 2853,
+      "mode": "0o644",
+      "path": "docs/BUILD.md",
+      "sha256": "3f2ba8ae0e6c1125c1e67f8abfb65469b315362f496f655daf5b52a8323c745f"
+    },
+    {
+      "bytes": 5610,
+      "mode": "0o644",
+      "path": "docs/DEPENDENCIES.md",
+      "sha256": "f8aca3fc6ff30e746bda90cd8ebcab57a64c1047d356161a6db459fda9ae1b79"
+    },
+    {
+      "bytes": 3526,
+      "mode": "0o644",
+      "path": "docs/DIAGNOSTIC_SOURCES.md",
+      "sha256": "5bd03816962d08484d1f164154204ccc769f6f1943325fdd298603e8bba82de3"
+    },
+    {
+      "bytes": 3299,
+      "mode": "0o644",
+      "path": "docs/LIMITATIONS.md",
+      "sha256": "a5ca58c7495a2c4ffb663b523d7ac30c9a0145eca52fec80b82d5c9c64b535d7"
+    },
+    {
+      "bytes": 4409,
+      "mode": "0o644",
+      "path": "docs/PRIVACY.md",
+      "sha256": "f4852d061fad612bae57166e9d507d427f63239073dd7a181f55267686426fd2"
+    },
+    {
+      "bytes": 2248,
+      "mode": "0o644",
+      "path": "docs/PROVENANCE.md",
+      "sha256": "6db3a81c1996cefe5a5cfc8dd200b56eb8dbd838358a48fc1ad6eb82bfc9187c"
+    },
+    {
+      "bytes": 1962,
+      "mode": "0o644",
+      "path": "docs/RELEASE.md",
+      "sha256": "8cfb0b62c041625c51b4b3a9fe1f2ad2090ad969b907ef432d0a3dcc39838a81"
+    },
+    {
+      "bytes": 5144,
+      "mode": "0o644",
+      "path": "docs/WORKFLOWS.md",
+      "sha256": "1b50c4b6f12bfe745beaefda48d15a52151ca84d71f87bced784d21f3769819a"
+    },
+    {
+      "bytes": 2766,
+      "mode": "0o644",
+      "path": "docs/dependencies.json",
+      "sha256": "47c596e317c5dad6ad05ef87808a4e541c7739f619a244eedfc4187dd856db1a"
+    },
+    {
+      "bytes": 6351,
+      "mode": "0o644",
+      "path": "scripts/publication_scan.py",
+      "sha256": "18238f00ec9d1d744e703b527531a5459c74008691bdb003a7cc97dc262383b8"
+    }
+  ],
+  "project": "Device Diagnostic Suite",
+  "proposedRepository": "device-diagnostic-suite",
+  "schema": "device-diagnostic-suite-publication-v1",
+  "scope": "Source-only candidate; this manifest excludes itself.",
+  "tagline": "Local macOS diagnostics for iPhone",
+  "version": "0.3.0-rc.2"
+}
